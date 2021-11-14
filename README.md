@@ -18,7 +18,7 @@ $ rpmbuild -ba amdgpu-pro-opencl.spec
 
 $ sudo dnf -y --nogpgcheck install ~/rpmbuild/RPMS/x86_64/amdgpu-pro-opencl-21.30.1290604-1.fc35.x86_64.rpm
 
-Запустите программу,с помощью amdgprorun или полного пути к программе:
+Запустите программу,с помощью amdgprorun или полный путь к программе:
 
 $ amdgporun clinfo
 
