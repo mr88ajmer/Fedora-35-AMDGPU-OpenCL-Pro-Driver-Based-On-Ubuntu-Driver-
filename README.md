@@ -10,7 +10,7 @@ cd ~/rpmbuild/SOURCES
 
 wget --referer https://support.amd.com/en-us/kb-articles/Pages/AMDGPU-PRO-Driver-for-Linux-Release-Notes.aspx https://drivers.amd.com/drivers/linux/amdgpu-pro-21.30-1290604-ubuntu-20.04.tar.xz
 
-
+git clone https://github.com/mr88ajmer/Fedora-35-AMDGPU-OpenCL-Pro-Driver-Based-On-Ubuntu-Driver- amdgpu-pro-opencl
 cd amdgpu-pro-opencl
 
 rpmbuild -ba amdgpu-pro-opencl.spec
